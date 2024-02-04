@@ -201,7 +201,7 @@ TEST DATA 2: [12, 5, -5, 0, 4]
 
 */
 
-const testData1 = [17, 21, 23];
+const testData1 = [17, 21, 23, 28];
 const testData2 = [12, 5, -5, 0, 4];
 
 const printForecast = function (arr) {

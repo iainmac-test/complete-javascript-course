@@ -5,15 +5,14 @@
 }
 
 body {
-  background-color: rgb(255, 247, 201);
-  font-family: Arial;
+  background-color: rgb(230, 223, 181);
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  padding: 50px;
 }
 
 h1 {
   font-size: 35px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 h2 {
@@ -25,18 +24,21 @@ p {
   margin-bottom: 20px;
 }
 
+/* Class selector */
 .first {
-  color: red;
+  color: rgb(34, 44, 249);
 }
 
+/* ID selector */
 #your-name {
-  background-color: rgb(255, 220, 105);
+  background-color: rgb(238, 141, 236);
   border: 5px solid #444;
   width: 400px;
   padding: 25px;
   margin-top: 30px;
 }
 
+/* Chaining two selectors together i.e. input and the button */
 input,
 button {
   padding: 10px;
@@ -51,6 +53,7 @@ a {
   width: 300px;
 }
 
+/*  children CSS styles */
 #your-name h2 {
   color: olivedrab;
 }
